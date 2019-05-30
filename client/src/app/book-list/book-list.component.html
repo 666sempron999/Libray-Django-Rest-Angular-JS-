@@ -1,0 +1,37 @@
+<div class="container custom-container-2">
+
+  <!-- Show it when there is no employee -->
+  <div class="no-data text-center" *ngIf="Books.length == 0">
+    <p>There is no book added yet!</p>
+    <button class="btn btn-outline-primary" routerLink="/create-employee">Add Book</button>
+  </div>
+
+
+  <div *ngIf="Books.length !== 0">
+    <h3 class="mb-3 text-center">Books List</h3>
+
+    <div class="col-md-12">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Author id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Year of creating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let book of Books">
+            <td>{{book.author}}</td>
+            <td>{{book.title}}</td>
+            <td>{{book.description}}</td>
+            <td>{{book.year_of_creating}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+</div>

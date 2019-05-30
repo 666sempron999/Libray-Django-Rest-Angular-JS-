@@ -1,0 +1,57 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "first_name": "Mark",
+      "last_name": "Lutz"
+    },
+    {
+      "id": 2,
+      "first_name": "David",
+      "last_name": "Beazley"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "author": 1,
+      "title": "Learning Python Learning Python",
+      "description": "Get a comprehensive, in-depth introduction to the core Python language with this hands-on book. Based on author Mark Lutz’s popular training course, this updated fifth edition will help you quickly write efficient, high-quality code with Python. It’s an ideal way to begin, whether you’re new to programming or a professional developer versed in other languages.",
+      "year_of_creating": 2013
+    },
+    {
+      "id": 2,
+      "author": 1,
+      "title": "Python Pocket Reference Python Pocket Reference",
+      "description": "Python Pocket Reference, 5th Edition Python In Your Pocket  By Mark Lutz  Publisher: O'Reilly Media  Release Date: January 2014  Pages: 264 Read on O'Reilly Online Learning with a 10-day trial Start your free trial Buy on Amazon  Where’s the cart? Now you can get everything with O'Reilly Online Learning. To purchase books, visit Amazon or your favorite retailer. Questions? See our FAQ or contact customer service:  1-800-889-8969 / 707-827-7019 support@oreilly.com  View/Submit Errata  Updated fo",
+      "year_of_creating": 2014
+    },
+    {
+      "id": 3,
+      "author": 2,
+      "title": "Python Cookbook: Recipes for Mastering Python 3",
+      "description": "Rather than attempting to seek out Python 3-specific recipes, the topics of this book are merely inspired by existing code and techniques. Using these ideas as a springboard, the writing is an original work that has been deliberately written with the most modern Python programming techniques possible. Thus, it can serve as a reference for anyone who wants to write their code in a modern style.",
+      "year_of_creating": 2013
+    },
+    {
+      "title": "ola",
+      "description": "lllwlw",
+      "year_of_creating": "444",
+      "id": 4
+    },
+    {
+      "title": "new bool",
+      "description": "loren loren loren loren",
+      "year_of_creating": "2010",
+      "author": "2",
+      "id": 5
+    },
+    {
+      "title": "ehfgh",
+      "description": "fghfgh",
+      "year_of_creating": "044",
+      "author": "2",
+      "id": 6
+    }
+  ]
+}

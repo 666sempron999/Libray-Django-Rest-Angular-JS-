@@ -1,0 +1,35 @@
+<div class="container custom-container">
+  <div class="col-md-12">
+    <h3 class="mb-3 text-center">Create book</h3>
+
+    <div class="form-group">
+
+      <select [(ngModel)]="bookDetails.author">
+         <option disabled hidden [value]="selectUndefinedOptionValue">Select Author</option>
+
+        <option  *ngFor="let charac of Authors"
+        [value]="charac.id">
+          {{charac.first_name + " " + charac.last_name}}
+        </option>
+      </select>
+
+    </div>
+
+    <div class="form-group">
+      <input type="text" [(ngModel)]="bookDetails.title" class="form-control" placeholder="Title">
+    </div>
+
+    <div class="form-group">
+      <input type="text" [(ngModel)]="bookDetails.description" class="form-control" placeholder="Description">
+    </div>
+
+    <div class="form-group">
+      <input type="text" [(ngModel)]="bookDetails.year_of_creating" class="form-control" placeholder="Year">
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-success btn-lg btn-block" (click)="addBook()">Create Book</button>
+    </div>
+
+  </div>
+</div>
